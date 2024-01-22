@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style/css/style.min.css" />
+        <title>Tic Tac Toe</title>
+    </head>
+    <body>
+        <div class="grid-size">
+            <label for="grid-size">Grid Size</label>
+            <input
+                type="range"
+                name="grid-size"
+                id="grid-size"
+                min="3"
+                max="8"
+            />
+            <p class="range-info">4</p>
+        </div>
+        <div class="container">
+            <div class="game"></div>
+            <div class="game"></div>
+            <div class="game"></div>
+            <div class="game"></div>
+            <div class="game"></div>
+            <div class="game"></div>
+            <div class="game"></div>
+            <div class="game"></div>
+            <div class="game"></div>
+        </div>
+        <p class="info">X's turn</p>
+        <button type="button" id="restart">Restart</button>
+        <script src="js/playTicTacToe.js"></script>
+    </body>
+</html>
